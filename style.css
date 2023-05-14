@@ -1,0 +1,74 @@
+body{
+    background-size: cover;
+}
+#header{
+    box-shadow: 10px 10px 10px rgb(8, 79, 105);
+    background-image: linear-gradient(45deg, #0a3a5c, #15d5e6);
+}
+#heading{
+    color:white;
+    width: 100%;
+    margin:0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: monospace;
+    font-size: 30px;
+}
+#note{
+   
+    margin:0px;
+    color:white;
+    font-size: 15px;
+    font-family:times new roman;
+     padding-top: 10px;
+    padding-bottom: 10px;
+ 
+}
+#start, #number_of_objects, #status{
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px rgb(6, 59, 92);
+}
+#number_of_objects, #status{
+    margin:5px;
+}
+#input{
+ border: none;
+ border-radius: 5px;
+ margin:20px;
+ width: 350px;
+ padding-top: 5px;
+ padding-bottom:5px;
+ background-image: linear-gradient(45deg, #94cae2, #8cd4da);
+ color:white;
+ font-family: courier;
+ box-shadow: 10px 10px 10px rgb(6, 59, 92);
+}
+#input:hover{
+    transition: 5px;
+    background-image: linear-gradient(45deg, #145875, #145c63);
+}
+input[type=text] {
+    width: 100px;
+    transition: ease-in-out, width .35s ease-in-out;
+  }
+#input[type=text]:focus {
+    width: 250px;
+}
+.copy_right_footer{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    bottom:0;
+    width: 100%;
+    background-color: rgb(17, 83, 107);
+    line-height: 3;
+    text-align: center;  
+}
+canvas{
+    border: 2px solid rgb(23, 74, 114);
+    border-radius: 10px;
+    margin-top: 110px;
+    box-shadow: 10px 10px 10px rgb(6, 59, 92);
+
+}
